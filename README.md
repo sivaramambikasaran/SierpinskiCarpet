@@ -1,6 +1,9 @@
 Sierpinski carpet
 =================
 
+<img style="float: middle" src = "https://raw.githubusercontent.com/sivaramambikasaran/SierpinskiCarpet/master/animationSierpinskiCarpet.gif" width=750>
+
+
 Generates a movie of Sierpinski carpet given a number of levels.
 
 To obtain the movie, run the script `SierpinskiCarpet.sh`

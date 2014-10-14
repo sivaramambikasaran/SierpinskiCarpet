@@ -87,7 +87,7 @@ void SierpinskiCarpet(double a, double b, double size, int nLevels) {
 
 int main(int argc, char* argv[]) {
 	nMaxLevels	=	atoi(argv[1]);
-	std::string filename	=	"SierpinskiCarpet_" + std::to_string(nMaxLevels) + ".tex";
+	std::string filename	=	"./images/SierpinskiCarpet_" + std::to_string(nMaxLevels) + ".tex";
 	myfile.open(filename.c_str(), std::ios::out);
 	myfile << "\\documentclass{standalone}" << std::endl;
 	myfile << "\\usepackage{tikz}" << std::endl;
